@@ -1,0 +1,22 @@
+.sidebar {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.sidebar ul {
+  padding: 0;
+  margin: 24px;
+}
+.sidebar ul li {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li span {
+  grid-area: sidebar;
+  margin-left: 16px;
+  font-size: 14px;
+}

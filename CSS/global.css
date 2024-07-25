@@ -1,0 +1,15 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  font-family: "Roboto";
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 15vw auto;
+  grid-template-areas:
+    "header header "
+    "aside layout-video";
+}
